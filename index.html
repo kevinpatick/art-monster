@@ -151,13 +151,13 @@
     }
 
     .nav-logo {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 1px solid var(--color-border);
-      background: #000;
-    }
+  width: 40px;
+  height: 40px;
+  border-radius: 0;        /* square corners */
+  overflow: hidden;
+  border: none;            /* remove outline */
+  background: transparent; /* let the logo image show naturally */
+}
 
     .nav-title {
       font-size: 1rem;
@@ -1728,4 +1728,5 @@
 </script>
 </body>
 </html>
+
 
